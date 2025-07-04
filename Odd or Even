@@ -1,0 +1,13 @@
+import java.util.*;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner a = new Scanner(System.in);
+        int input = a.nextInt();
+        if (input % 2 == 0) {
+            System.out.println("Even Number");
+        } else {
+            System.out.println("Odd Number");
+        }
+    }
+}
